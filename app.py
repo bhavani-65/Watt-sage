@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the model
-model = pickle.load(open(r"C:\Users\User\Desktop\watt-sage\model.pkl", 'rb'))
+model = pickle.load(open(r"model.pkl", 'rb'))
 
 # Define the Streamlit app
 st.title("Energy Consumption Prediction")
